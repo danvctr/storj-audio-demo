@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Storj Audio Demo</title>
+
+  <!-- Include the AudioJS Library -->
+  <script src="audio.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript" charset="utf-8">
+    window.onload = function(){
+      AudioJS.setup();
+    }
+  </script>
+  <link rel="stylesheet" href="audio-js.css" type="text/css" media="all" title="Audio JS" charset="utf-8">
+</head>
+<body>
+ <div style="width: 60%; margin: auto; text-align: center">
+  <div class="audio-js-box" style="width: 75px; margin: auto">
+  <!-- Begin AudioJS -->
+    <audio class="audio-js" controls preload>
+      <source src="http://node1.metadisk.org/api/download/b36259bd9638b91a7d7b74ff6146077ef12f6a617c6db03bf69f6556e8197a11?key=4af2fb907a20490cc45d6c6482432bb4296cabdeefc428e7a9e3e1f88758a5e8&token=TfOeOfhpAuZyE7iB">
+    </audio>
+  <!-- End AudioJS -->
+  </div>
+  <div>
+    <p>Download this song: <a href="http://node1.metadisk.org/api/download/b36259bd9638b91a7d7b74ff6146077ef12f6a617c6db03bf69f6556e8197a11?key=4af2fb907a20490cc45d6c6482432bb4296cabdeefc428e7a9e3e1f88758a5e8&token=TfOeOfhpAuZyE7iB">Iggy Azalea Ft. Rita Ora - Black Widow (Rogue Remix)</a></p>
+    <p>Powered by <a href="https://storj.io">Storj.io</a> | Source on <a href="https://github.com/danvctr/storj-audio-demo">GitHub</a></p>
+  </div>
+ </div>
+</body>
+</html>
